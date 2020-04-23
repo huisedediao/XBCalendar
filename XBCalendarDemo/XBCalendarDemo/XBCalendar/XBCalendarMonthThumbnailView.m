@@ -34,6 +34,9 @@
 
 - (void)drawRect:(CGRect)rect
 {
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    CGContextClearRect(ctx, rect);
+    
     NSInteger hCount = 7;
     CGFloat width = rect.size.width / 7;
     CGFloat vSpace = 5;

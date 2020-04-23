@@ -7,7 +7,7 @@
 //
 
 #import "NSDate+Category.h"
-
+  
 @implementation NSDate (Category)
 - (int)year {
     NSCalendar *gregorian = [[NSCalendar alloc]
